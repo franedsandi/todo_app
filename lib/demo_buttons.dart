@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class DemoButtons extends StatefulWidget {
   const DemoButtons({super.key});
+
   @override
   State<DemoButtons> createState() {
     return _DemoButtonsState();
@@ -10,9 +11,10 @@ class DemoButtons extends StatefulWidget {
 
 class _DemoButtonsState extends State<DemoButtons> {
   var _isUnderstood = false;
+
   @override
   Widget build(BuildContext context) {
-    print('UIUpdatesDemo BUILD called');
+    print('DemoButtons BUILD called');
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
